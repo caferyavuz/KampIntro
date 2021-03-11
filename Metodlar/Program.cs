@@ -33,6 +33,7 @@ namespace Metodlar
             sepetManager.Ekle(urun2);
 
             sepetManager.Ekle2("Armut","Yeşil armut",12);
+            sepetManager.Ekle2("Elma", "Yeşil elma", 7);
         }
     }
 }
