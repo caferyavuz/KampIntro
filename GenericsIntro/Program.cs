@@ -7,7 +7,20 @@ namespace GenericsIntro
         static void Main(string[] args)
         {
             MyList<string> isimler = new MyList<string>();
-            Console.WriteLine("Hello World!");
+            isimler.Add("Engin");
+            isimler.Add("Mehmet");
+
+            Console.WriteLine(isimler.Length());
+            
+            isimler.Add("Recep");
+            isimler.Add("Anıl");
+
+            Console.WriteLine(isimler.Length());
+
+            foreach (var isim in isimler.Items())
+            {
+                Console.WriteLine(isim);
+            }
         }
     }
 }
