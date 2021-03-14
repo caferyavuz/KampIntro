@@ -22,9 +22,9 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item;
         }
-        public int Length() 
+        public int Count
         {
-            return items.Length;
+            get { return items.Length; }
         }
         
         public T[] Items()
