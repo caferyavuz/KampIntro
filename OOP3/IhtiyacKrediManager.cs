@@ -9,6 +9,6 @@ namespace OOP3
         public void Hesapla()
         {
             Console.WriteLine("İhtiyaç kredisi ödeme planı hesaplandı.");
-        }
+        } 
     }
 }
