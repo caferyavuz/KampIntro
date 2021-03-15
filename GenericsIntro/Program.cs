@@ -35,9 +35,9 @@ namespace GenericsIntro
 
             MyDictionary<int, string> name = new MyDictionary<int, string>();
             Console.WriteLine(name.Count);
-            name.Add(1,"mahmut");
+            name.Add(1,"Semih");
             Console.WriteLine(name.Count);
-            name.Add(1, "mahmut");
+            name.Add(2, "Mahmut");
             Console.WriteLine(name.Count);
 
         }
